@@ -15,7 +15,7 @@ require([
     "states/gameover"
 ], function (PhaserGame, BootState, PreloadState, GameState, GameOverState) {
 
-    var game = new PhaserGame(800, 400);
+    var game = new PhaserGame(960, 640);
 
     game.state.add("Boot", BootState);
     game.state.add("Preload", PreloadState);
